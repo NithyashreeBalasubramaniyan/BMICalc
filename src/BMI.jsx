@@ -1,5 +1,4 @@
 import React from 'react'
-import fitness from './assets/fitness2.jpg'
 import './BMI.css'
 import { useState } from 'react'
 export const BMI = () => {
@@ -43,7 +42,7 @@ export const BMI = () => {
   return (
     <div className='container'>
         <div className='left'>
-            <img src={fitness}/>
+            <img src='../public/fitness2.jpg'/>
         </div>
         <div className='right'>
             <h1>BMI Calculator</h1>
