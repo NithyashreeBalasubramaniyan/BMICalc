@@ -42,7 +42,7 @@ export const BMI = () => {
   return (
     <div className='container'>
         <div className='left'>
-            <img src='../public/fitness2.jpg'/>
+            <img src='./fitness2.jpg'/>
         </div>
         <div className='right'>
             <h1>BMI Calculator</h1>
