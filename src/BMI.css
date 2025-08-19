@@ -93,3 +93,22 @@ p{
 .btn2{
   width: 100px;
 }
+@media (max-width:770px){
+  body{
+    padding: 10px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 90vh;
+    padding: 20px;
+    background-color: transparent;
+  }
+  .left{
+   display: none;
+  }
+  .right{
+    width: 90vw;
+  }
+}
